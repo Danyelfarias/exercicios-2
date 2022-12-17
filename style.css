@@ -1,0 +1,12 @@
+@charset "UTF-8";
+{
+    font-family: arial}
+ body{ background-image: linear-gradient(to right,#dadd15,green);}
+ main{
+        background-image:90deg,#D94E41,#F2A679;
+        box-shadow:2px 2px 2px #D94E41;
+        width: 700px;
+        padding: 10px;
+        margin: auto;
+        text-shadow:2px 2px 2px #dadd15;
+ }
