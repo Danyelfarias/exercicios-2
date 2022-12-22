@@ -13,21 +13,32 @@
         height: 200px;
         width: 100%;
     }
-    h1{color: white;
+    #principal{color: white;
         text-align: center;
+        width: auto;
     
     }
-    h2{background-image: linear-gradient(right,#02F5A0,#84E1AD);
-        color:white;}
-    p{color:white;
-        text-align: center;}
+    div{background-color: white;
+    width: 70%;}
+    h1{color:#227A49;
+        text-align:center;
+
+
+    }
+    h2{background-image: linear-gradient(45deg,#02F5A0 #84E1AD);
+        background-attachment: fixed;
+        color:#227A49
+    }
+    p{color:black;
+        text-align: justify;}
         span{color: white;
         text-align: left,start;}
+    
     </style>
     <title>desafio guanabara</title>
 </head>
 <body><main>
-    <h1>curiosidades da tecnologia</h1>
+    <h1 id="principal">curiosidades da tecnologia</h1>
     <p>tudo aquilo que voce queria saber sobre o mundo da tecnologia,em um unico lugar</p>
     <span>home</span>
     <span>fale conosco</span>
@@ -35,10 +46,25 @@
     <span>curiosidades</span>
 </main>
 <div>
-    <h1>historia do mascote do android</h1>
+    <h1 >historia do mascote do android</h1>
     <p>provavelmente voce save que o sistema operacional android ,mandido pelo google pe um dos amis utilizados para depositos moveis em todo o mundo.Mas talvez voxe nao sobe que o sseu simpatico mascote tem uma nome e uma historia muito curiosa ? pois acompanhe esse artigo para aprender muita xoisa sobre esse robozinho.</p>
     <h2>a primeira versão</h2>
     <p>a primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado dan morrill .ele conta que avriu o likscape (software livre para valorizaçao de imagens) e criou sua propria versao de robo. o objetivo era apenas personalizar o sistema apenas para a sua equipe, noa existia nenhuma solicitaçao de empresa para a criaçao de um mascote.</p>
+    <picture><source media="(max-width:1050px )" srcset="imagens/dan-droids-pq.png" type="image/png">
+        <img src="imagens/dan-droids.png" alt="androids"></picture>
+        <p>essa primeira versao bizarra ate foi batizada em homenagem ao seu xriador seriam os </p>
+        <h2>surge um novo mascote</h2>
+        <p><blackquote>a ideia de ter um mascote foi amadurecendo e a missao foi passada para uma professora da area. A ilustradora Russa irina block,tambem funcionaria do Google.ficou com a missao de representar o pequeno robo de uma maneira mas agradaavel.</blackquote></p><br>
+        <picture >
+            <source media="(max-width:1050px )" srcset="imagens/irina-blok-pq.jpg" type="image/png">
+            <img src="imagens/irina-blok.jpg" alt="irina-blok">
+            <p>A ideia principal da irina era representar tudograficamente com poucos traços e de forma mas chapada.O desenho tambem deveria gerar identificaçao rapida com quem e olha.Surgiu entao o bugdoid ,o novo mascote do android</p>
+            <img src="imagens/bugdroid.png" alt="bugdroid">
+            <p>a pricipal inspiraçao para os traços do novo bugdoid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o generoo de cada porta.Conta a lenda que a irtista estava criando em sua mesa no escratorio do google eolhou para o lado dos banheiros e a identificaçao foi imediata simples ,kimpa ,objetiva.</p>
+            
+        </picture>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
 </div>
 </body>
 </html>
