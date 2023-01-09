@@ -1,5 +1,15 @@
 @charset "UTF-8";
-    /* shit+alt+a --> atalho de comentarios mais rapido */
+@import url('https://fonts.googleapis.com/css2?family=Vibur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+    /* shift+alt+a --> atalho de comentarios mais rapido */
+    /* shift+alt+c no arquivo html ele copia o link so arquivo ,facilitando abrir ele no navegador*/
+    :root{ 
+        --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+        --fonte2:'Bad Script', cursive;
+        --fonte3:'Vibur', cursive;
+    
+    }
 *{margin: 0px;
 padding: 0px;}
 html,body{ 
@@ -9,15 +19,61 @@ header{
         background-color: black;
         color: white;
         text-align: center;
-
-
 }
 header>h1{ 
     padding-top: 50px;
     font-variant: small-caps;/* ffont-variant e usado para mudar a fonte a funcao
     small caps--> deixar as letras todas maiusculas e as primeiras letra da palavra maior que as demais */
-
-
-
+    font-family: var(--fonte2);
+    font-size: 5vw;
 }
-    header
+header>p{
+    padding-bottom: 50px;
+    font-family: var(--fonte3);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+a:hover{ text-decoration: underline;/* color uma linha abaixo do texto toda vez que a seta fica em cima do nome */}
+section/* essa section corresponde as duas proximas */{ 
+    padding-top: 10vh;/* atençao ao viuw port hight  */
+    padding-bottom: 10vh;
+    padding-left: 50px;
+    line-height: 2em;/* servi para dar espaçamento entre as linhas */
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+    text-shadow: inset 6px 6px 13px 0px black;/* essa funçao colocado nessa seçao aqui vai servi como uma sobra na caixa inteiras
+    inser--> servi para sobra ficar para dentro */
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem>p{
+    background-color: rgba(0, 0, 0, 0.473);
+    display: inline-block;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+   
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
