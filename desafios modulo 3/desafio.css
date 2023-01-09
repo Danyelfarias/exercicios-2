@@ -1,0 +1,23 @@
+@charset "UTF-8";
+    /* shit+alt+a --> atalho de comentarios mais rapido */
+*{margin: 0px;
+padding: 0px;}
+html,body{ 
+    min-height: 100vh;/* vh --> significa viuw port ou visualizacao da altura do site */
+    background-color: darkgrey;}
+header{ 
+        background-color: black;
+        color: white;
+        text-align: center;
+
+
+}
+header>h1{ 
+    padding-top: 50px;
+    font-variant: small-caps;/* ffont-variant e usado para mudar a fonte a funcao
+    small caps--> deixar as letras todas maiusculas e as primeiras letra da palavra maior que as demais */
+
+
+
+}
+    header
